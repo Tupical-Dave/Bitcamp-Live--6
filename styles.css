@@ -1,0 +1,49 @@
+:root {
+    --brown: rgb(213, 150, 108);
+    --black: rgb(21, 21, 21);
+    --grey: rgb(68, 68, 68);
+    --white: rgb(255, 255, 255);
+  }
+
+button {
+    all: unset;
+}
+
+body {
+    font-family: "Outfit Light", sans-serif;
+    margin: 0px;
+    font-size: 22px;
+    line-height: 32px;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "Big Shoulders Display Black", sans-serif;
+    font-size: 96px;
+    line-height: 88px;
+}
+
+h2 {
+    font-family: "Big Shoulders Display Black", sans-serif;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+h3 {
+    font-family: "Big Shoulders Display Black", sans-serif;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+h4 {
+    font-family: "Big Shoulders Display Black", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+
+/* Header */
+
+
+
+/* footer */
