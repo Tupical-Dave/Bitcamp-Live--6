@@ -1,0 +1,55 @@
+:root {
+    --brown: rgb(213, 150, 108);
+    --black: rgb(21, 21, 21);
+    --grey: rgb(68, 68, 68);
+    --white: rgb(255, 255, 255);
+}
+
+html, body, p {
+    margin: 0px;
+}
+
+.location-container {
+    background-image: url(./assets/mobile/image-map.png);
+    height: 550px;
+}
+
+.our-location-button {
+    background-color: black;
+    color: white;
+    padding: 24px 35px 24px 32px;
+}
+
+.button-container {
+    width: 87%;
+
+    display: flex;
+}
+
+.button-container:hover .arrow-container {
+    background-color: black;
+}
+
+.button-container:hover .our-location-button {
+    background-color: var(--brown);
+}
+
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--brown);
+    width: 18%;
+}
+
+.button-container button {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+
+    width: 66%;
+}
