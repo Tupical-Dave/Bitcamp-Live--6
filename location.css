@@ -5,8 +5,23 @@
     --white: rgb(255, 255, 255);
 }
 
-html, body, p {
+html,
+body,
+p {
     margin: 0px;
+}
+
+body {
+    font-family: "Outfit Light", sans-serif;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+a:visited {
+    all: unset;
 }
 
 .location-container {
@@ -50,6 +65,96 @@ html, body, p {
     font-weight: 800;
     line-height: 24px;
     text-align: left;
-
     width: 66%;
+}
+
+.hero-text-container {
+    padding: 0px 16px;
+    background-color: black;
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 48px 0px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+h3 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #D5966C;
+    margin: 0px;
+}
+
+.address-paragraph {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.black-backround-paragraph {
+    padding-bottom: 56px;
+    color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--brown);
+    color: var(--black);
+}
+
+.footer-text-container {
+    padding: 48px 32px 50px;
+}
+
+.footer-text-container #logo {
+    margin-bottom: 32px;
+}
+
+.footer-text-container p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 38px;
+}
+
+.social-media-container {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media-container {
+    color: #151515;
+}
+
+.black {
+    color: red;
 }
